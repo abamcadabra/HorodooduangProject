@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">project</string>
+    <string name="header" translatable="false">Horodooduang</string>
+    <string name="button_home" >Ready to read your fortune?</string>
+    <string name="buttonExit" >exit</string>
+    <string name="select_header">Please Select</string>
+    <string name="button_syamsi">Syamsi</string>
+    <string name="button_tarot">Tarot</string>
+    <string name="button_color">Auspicious color</string>
+    <string name="header_topic">Choose a topic</string>
+    <string name="button_work">Career</string>
+    <string name="button_money">Money</string>
+    <string name="button_love">Love</string>
+    <string name="button_health">Health</string>
+    <string name="button_luck">Luck</string>
+    <string name="buttonPredict">Prediction</string>
+    <string name="description">Description: </string>
+    <string name="advice">Advice: </string>
+    <string name="textView">Shake to Predict </string>
+    <string name="buttonBack" translatable="false">back to topic</string>
+
+    <string name="Auspicious_color">Auspicious color</string>
+    <string name="button_mon">Mon</string>
+    <string name="button_tue">Tue</string>
+    <string name="button_wed">Wed</string>
+    <string name="button_thu">Thu</string>
+    <string name="button_fri">Fri</string>
+    <string name="button_sat">Sat</string>
+    <string name="button_sun">Sun</string>
+    <string name="lucky_color">lucky color:</string>
+    <string name="output_luckycolor" translatable="false"> </string>
+    <string name="text_work">work</string>
+    <string name="color1" translatable="false"> </string>
+    <string name="text_money">money</string>
+    <string name="text_love">love</string>
+    <string name="text_fortune">fortune</string>
+    <string name="text_health">health</string>
+    <string name="text_supportive">supportive</string>
+    <string name="text_unfortunate">unfortunate</string>
+
+    <string name="fortune_message_1">Number 1: Worry not, success is near. Love and partnership will flourish.</string>
+    <string name="fortune_message_2">Number 2: Tough now, but improvement is coming by year-end.</string>
+    <string name="fortune_message_3">Number 3: Work hard for wealth and fame, problems will resolve soon.</string>
+    <string name="fortune_message_4">Number 4: Patience is key, things will improve with time.</string>
+    <string name="fortune_message_5">Number 5: Success comes after persistence, keep going.</string>
+    <string name="fortune_message_6">Number 6: Tough times now, but relief is near next month.</string>
+    <string name="fortune_message_7">Number 7: All wishes will succeed, happiness is near.</string>
+    <string name="fortune_message_8">Number 8: Problems will ease, fortune comes slowly.</string>
+    <string name="fortune_message_9">Number 9: Fortune is coming, but stay cautious of misfortune.</string>
+    <string name="fortune_message_10">Number 10: Still challenging this year, but fortune will come slowly.</string>
+    <string name="fortune_message_11">Number 11: Success is near, you’ll have help and support.</string>
+    <string name="fortune_message_12">Number 12: Still tough, wait until next year for improvement.</string>
+    <string name="fortune_message_default">Good luck!</string>
+
+    <string name="card_fool" translatable="false">The Fool</string>
+    <string name="card_magician" translatable="false">The Magician</string>
+    <string name="card_high_priestess" translatable="false">The High Priestess</string>
+    <string name="card_empress" translatable="false">The Empress</string>
+    <string name="card_emperor" translatable="false">The Emperor</string>
+    <string name="card_the_hierophant" translatable="false">The Hierophant</string>
+    <string name="card_lover" translatable="false">The Lover</string>
+    <string name="card_chariot" translatable="false">The Chariot</string>
+    <string name="card_Strength" translatable="false">The Strength</string>
+    <string name="card_hermit" translatable="false">The Hermit</string>
+    <string name="card_wheel" translatable="false">The Wheel of Fortune</string>
+    <string name="card_justice" translatable="false">The Justice</string>
+    <string name="card_hang" translatable="false">The Hang Man</string>
+    <string name="card_death" translatable="false">The Death</string>
+    <string name="card_tem" translatable="false">The Temperance</string>
+    <string name="card_devil" translatable="false">The Devil</string>
+    <string name="card_tower" translatable="false">The Tower</string>
+    <string name="card_star" translatable="false">The Star</string>
+    <string name="card_moon" translatable="false">The Moon</string>
+    <string name="card_sum" translatable="false">The Sum</string>
+    <string name="card_judge" translatable="false">The Judgement</string>
+    <string name="card_world" translatable="false">The World</string>
+
+    <string name="desc_fool">A fresh start, new work, or an unexplored opportunity.</string>
+    <string name="desc_magician">Versatility and utilizing available skills and resources for success.</string>
+    <string name="desc_high_priestess">Using intuition at work, waiting for the right moment.</string>
+    <string name="desc_empress">Growth, abundance, or creative opportunities.</string>
+    <string name="desc_emperor">Stability, structured management, or leadership.</string>
+
+    <string name="advice_fool">Take risks or try new things, even if the outcome is uncertain.</string>
+    <string name="advice_magician">Trust your potential and take action.</string>
+    <string name="advice_high_priestess">Trust your instincts, take your time analyzing the information, and avoid rushing.</string>
+    <string name="advice_empress">Use creativity in developing your work, especially in care or aesthetics-related fields.</string>
+    <string name="advice_emperor">Organize and control situations clearly.</string>
+
+
+</resources>

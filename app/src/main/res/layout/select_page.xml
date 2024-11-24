@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- LinearLayout สำหรับ ImageView ซ้ายบน -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@android:drawable/ic_menu_revert" />
+    </LinearLayout>
+
+    <!-- LinearLayout สำหรับเนื้อหาตรงกลาง -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/header_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/playfair_display_bold"
+            android:gravity="center"
+            android:text="@string/select_header"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/gold" />
+
+        <!-- ปุ่มแรก -->
+        <Button
+            android:id="@+id/button_syamsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/custom_button2"
+            android:fontFamily="@font/playfair_display"
+            android:minWidth="300dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="@string/button_syamsi"
+            android:textColor="@color/gold" />
+
+        <!-- ปุ่มที่สอง -->
+        <Button
+            android:id="@+id/button_tarot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/custom_button2"
+            android:fontFamily="@font/playfair_display"
+            android:minWidth="300dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="@string/button_tarot"
+            android:textColor="@color/gold" />
+
+        <!-- ปุ่มที่สาม -->
+        <Button
+            android:id="@+id/button_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button2"
+            android:fontFamily="@font/playfair_display"
+            android:minWidth="300dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="@string/button_color"
+            android:textColor="@color/gold" />
+    </LinearLayout>
+</LinearLayout>

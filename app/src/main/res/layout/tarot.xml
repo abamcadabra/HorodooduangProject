@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <!-- Layout สำหรับ ImageView ซ้ายบน -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@android:drawable/ic_menu_revert" />
+    </LinearLayout>
+
+    <!-- เนื้อหากลางหน้าจอ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="220dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/header_topic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/playfair_display_bold"
+            android:gravity="center"
+            android:text="@string/header_topic"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/gold" />
+
+        <!-- ปุ่มต่างๆ -->
+        <Button
+            android:id="@+id/button_work"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/custom_button2"
+            android:fontFamily="@font/playfair_display"
+            android:minWidth="300dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="@string/button_work"
+            android:textColor="@color/gold" />
+
+        <Button
+            android:id="@+id/button_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/custom_button2"
+            android:fontFamily="@font/playfair_display"
+            android:minWidth="300dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="@string/button_money"
+            android:textColor="@color/gold" />
+
+        <Button
+            android:id="@+id/button_love"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/custom_button2"
+            android:fontFamily="@font/playfair_display"
+            android:minWidth="300dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="@string/button_love"
+            android:textColor="@color/gold" />
+
+        <Button
+            android:id="@+id/button_health"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/custom_button2"
+            android:fontFamily="@font/playfair_display"
+            android:minWidth="300dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="@string/button_health"
+            android:textColor="@color/gold" />
+
+        <Button
+            android:id="@+id/button_luck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button2"
+            android:fontFamily="@font/playfair_display"
+            android:minWidth="300dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="@string/button_luck"
+            android:textColor="@color/gold" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

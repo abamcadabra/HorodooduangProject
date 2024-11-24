@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg6"
+    android:orientation="vertical"
+    android:gravity="start|center_vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/card_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/playfair_display"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/gold" />
+
+    <ImageView
+        android:id="@+id/prediction_card"
+        android:layout_width="271dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center" />
+
+
+
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/playfair_display_bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/gold"
+        android:text="@string/description" />
+
+    <TextView
+        android:id="@+id/card_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="@font/playfair_display"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/gold" />
+
+    <TextView
+        android:id="@+id/advice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/playfair_display_bold"
+        android:layout_marginTop="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/gold"
+        android:text="@string/advice" />
+
+    <TextView
+        android:id="@+id/card_advice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="start"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="@font/playfair_display"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/gold" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/henny_penny"
+        android:minWidth="200dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:text="@string/buttonBack"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</ScrollView>

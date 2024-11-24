@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">project</string>
+    <string name="select_header">โปรดเลือก</string>
+    <string name="button_syamsi">เซียมซี</string>
+    <string name="button_tarot">ไพ่ทาโรต์</string>
+    <string name="button_color">สีมงคล</string>
+    <string name="header_topic">เลือกหัวข้อ</string>
+    <string name="button_work">การงาน</string>
+    <string name="button_money">การเงิน</string>
+    <string name="button_love">ความรัก</string>
+    <string name="button_health">สุขภาพ</string>
+    <string name="button_luck">โชคลาภ</string>
+    <string name="Auspicious_color">สีมงคลประจำปี 2567</string>
+    <string name="button_mon">จ.</string>
+    <string name="button_tue">อ.</string>
+    <string name="button_wed">พ.</string>
+    <string name="button_thu">พฤ.</string>
+    <string name="button_fri">ศ.</string>
+    <string name="button_sat">ส.</string>
+    <string name="button_sun">อา.</string>
+    <string name="lucky_color">สีนำโชค</string>
+    <string name="text_work">การงาน</string>
+    <string name="text_money">การเงิน</string>
+    <string name="text_love">ความรัก</string>
+    <string name="text_fortune">โชคลาภ</string>
+    <string name="text_health">สุขภาพ</string>
+    <string name="text_supportive">อุปถัมภ์</string>
+    <string name="text_unfortunate">อัปมงคล</string>
+    <string name="textView">เขย่าเพื่อทำนาย</string>
+    <string name="fortune_message_1">เลขที่ 1: หากมีกังวลจะสมหวัง ถามหาลาภได้ผลดี ชายหญิงหาคู่ได้สำเร็จ</string>
+    <string name="fortune_message_2">เลขที่ 2: ลำบากตอนนี้ แต่จะดีขึ้นปลายปี ลาภจะมาช้า ๆ</string>
+    <string name="fortune_message_3">เลขที่ 3: หากหวังลาภยศ ต้องขวนขวาย ปัญหาจะคลี่คลายในไม่ช้า</string>
+    <string name="fortune_message_4">เลขที่ 4: ต้องรอเวลา ลำบากในช่วงนี้ แต่จะดีขึ้นเมื่อเวลาผ่านไป</string>
+    <string name="fortune_message_5">เลขที่ 5: การทำสิ่งต่าง ๆ จะยาก แต่ความสำเร็จจะมาหลังจากความอดทน</string>
+    <string name="fortune_message_6">เลขที่ 6: ลำบากในช่วงนี้ แต่จะคลายทุกข์ได้ในเดือนหน้า</string>
+    <string name="fortune_message_12">เลขที่ 12: ปีนี้ยังมีปัญหาหนัก ต้องรอปีหน้าให้ดีขึ้น</string>
+    <string name="fortune_message_default">โชคดี!</string>
+    <string name="fortune_message_7">เลขที่ 7: ทุกสิ่งที่หวังจะสำเร็จ มีความสุขในไม่ช้า</string>
+    <string name="fortune_message_8">เลขที่ 8: ปัญหาจะค่อย ๆ คลี่คลาย ลาภจะมาช้า</string>
+    <string name="fortune_message_9">เลขที่ 9: ลาภจะมาถึง แต่ต้องระวังสิ่งร้ายที่อาจเกิดขึ้น</string>
+    <string name="fortune_message_10">เลขที่ 10: ปีนี้ยังมีทุกข์ ต้องรอเวลา ลาภจะมาช้า</string>
+    <string name="fortune_message_11">เลขที่ 11: ความสำเร็จจะมาถึงในไม่ช้า มีผู้ช่วยสนับสนุน</string>
+    <string name="description">คำอธิบาย: </string>
+    <string name="advice">ข้อแนะนำ: </string>
+    <string name="buttonBack">กลับสู่หน้าไพ่ทาโร่</string>
+
+
+
+    <!-- Tarot Card Descriptions -->
+    <string name="desc_fool">การเริ่มต้นใหม่ งานใหม่ หรือโอกาสที่ยังไม่ได้สำรวจ.</string>
+    <string name="desc_magician">ความสามารถหลากหลาย และการใช้ทักษะและทรัพยากรที่มีเพื่อความสำเร็จ.</string>
+    <string name="desc_high_priestess">การใช้สัญชาตญาณในงาน รอคอยจังหวะที่เหมาะสม.</string>
+    <string name="desc_empress">การเติบโต ความอุดมสมบูรณ์ หรือโอกาสสร้างสรรค์.</string>
+    <string name="desc_emperor">ความมั่นคง การจัดการที่เป็นระบบ หรือการเป็นผู้นำ.</string>
+
+    <!-- Tarot Card Advice -->
+    <string name="advice_fool">ลองเสี่ยงและทำสิ่งใหม่ แม้ผลลัพธ์จะไม่แน่นอน.</string>
+    <string name="advice_magician">เชื่อมั่นในศักยภาพของคุณและลงมือทำ.</string>
+    <string name="advice_high_priestess">เชื่อมั่นในสัญชาตญาณของคุณ ใช้เวลาวิเคราะห์ข้อมูล และหลีกเลี่ยงการรีบร้อน.</string>
+    <string name="advice_empress">ใช้ความคิดสร้างสรรค์ในงาน โดยเฉพาะในด้านการดูแลหรือความงาม.</string>
+    <string name="advice_emperor">จัดระเบียบและควบคุมสถานการณ์อย่างชัดเจน.</string>
+
+    <string name="button_home" >พร้อมที่จะอ่านดวงของคุณหรือยัง?</string>
+    <string name="buttonExit" >ออก</string>
+    <string name="buttonPredict">อ่านคำทำนาย</string>
+</resources>
